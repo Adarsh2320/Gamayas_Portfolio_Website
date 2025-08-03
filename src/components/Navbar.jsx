@@ -50,10 +50,10 @@ const Navbar = () => {
           <img
             src={logo}
             alt="Gamayas Logo"
-            className="w-14 h-14 rounded-md object-fit border border-green-500 shadow"
+            className="w-16 h-14 rounded-md object-fit border border-green-500 shadow"
           />
           <span className="text-sm md:text-3xl font-bold tracking-wide">
-            GAMAYAS GROUP OF COMPANIES
+            AIRA DIGITAL DESIGN
           </span>
         </div>
 
@@ -64,7 +64,12 @@ const Navbar = () => {
               <a
                 key={item.name}
                 href={item.path}
-                onClick={(e) => handleHashLink(e, item.path.split("#")[1] ? `#${item.path.split("#")[1]}` : "")}
+                onClick={(e) =>
+                  handleHashLink(
+                    e,
+                    item.path.split("#")[1] ? `#${item.path.split("#")[1]}` : ""
+                  )
+                }
                 className={`transition duration-200 hover:text-green-400 ${
                   isActiveLink(item.path)
                     ? "text-green-400 underline underline-offset-4"
@@ -110,7 +115,14 @@ const Navbar = () => {
                 <a
                   key={item.name}
                   href={item.path}
-                  onClick={(e) => handleHashLink(e, item.path.split("#")[1] ? `#${item.path.split("#")[1]}` : "")}
+                  onClick={(e) =>
+                    handleHashLink(
+                      e,
+                      item.path.split("#")[1]
+                        ? `#${item.path.split("#")[1]}`
+                        : ""
+                    )
+                  }
                   className={`block py-1 transition duration-200 hover:text-green-400`}
                 >
                   {item.name}

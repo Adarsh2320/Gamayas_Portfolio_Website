@@ -79,7 +79,7 @@ const slides = [
   {
     image: slide3,
     title: "From Vision to Execution",
-    subtitle: "Gamayas turns your ideas into reality",
+    subtitle: "Aira Digital Design turns your ideas into reality",
   },
 ];
 
@@ -293,7 +293,7 @@ const Home = () => {
             <div className="relative group overflow-hidden rounded-3xl shadow-2xl border border-green-500/20 ">
               <img
                 src={aboutImg}
-                alt="About Gamayas"
+                alt="About Aira Digital Design"
                 className="w-full max-h-96 object-cover transform group-hover:scale-105 transition-transform duration-500"
               />
 
@@ -311,11 +311,11 @@ const Home = () => {
           >
             <div className="w-[135%] -ml-6 h-96 bg-white/5 backdrop-blur-md p-8 rounded-2xl shadow-lg border-l-4 border-green-500 hover:shadow-green-500/20 transition overflow-y-auto">
               <h2 className="text-3xl md:text-4xl font-bold text-green-400 mb-6">
-                What is Gamayas?
+                What is Aira Digital Design?
               </h2>
               <p className="text-lg text-gray-300 leading-relaxed">
                 <span className="font-semibold text-white">
-                  Gamayas Group of Companies
+                  Aira Digital Design
                 </span>{" "}
                 is a Hyderabad-based tech innovation company crafting
                 intelligent, scalable, and human-centric platforms. We

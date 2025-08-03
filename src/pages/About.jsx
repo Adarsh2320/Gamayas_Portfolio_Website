@@ -17,9 +17,6 @@ import team8 from "../assets/team_photos/juhi.png";
 import team9 from "../assets/team_photos/arpan.png";
 import team10 from "../assets/team_photos/adarsh.png";
 
-
-
-
 import WhatsappButton from "../components/WhatsappButton";
 
 const About = () => {
@@ -57,7 +54,7 @@ const About = () => {
             className="w-full md:w-1/2 md:pr-12 hover:scale-[1.01] transition-transform duration-500"
           >
             <h1 className="text-4xl md:text-5xl font-bold mb-6 text-left">
-              About Gamayas
+              About Aira Digital Design
             </h1>
             <p className="text-lg md:text-xl text-gray-300 leading-relaxed text-justify">
               We are a technology company that builds intelligent platforms and
@@ -200,10 +197,10 @@ const About = () => {
               Our Mission
             </h2>
             <p className="text-lg text-gray-300 leading-relaxed mb-4">
-              At Gamayas, we bridge the gap between traditional systems and
-              future innovation by delivering scalable, human-centric digital
-              solutions. We focus on modernizing legacy infrastructure with
-              thoughtful engineering and user-first design.
+              At Aira Digital Design, we bridge the gap between traditional
+              systems and future innovation by delivering scalable,
+              human-centric digital solutions. We focus on modernizing legacy
+              infrastructure with thoughtful engineering and user-first design.
             </p>
             <p className="text-lg text-gray-300 leading-relaxed mb-4">
               Our mission is to accelerate digital journeys through technical
@@ -294,8 +291,8 @@ const About = () => {
               Our Story
             </h2>
             <p className="text-lg text-gray-300 leading-relaxed mb-4">
-              Gamayas began with a simple yet powerful vision — to use
-              technology not just to solve problems, but to inspire
+              Aira Digital Design began with a simple yet powerful vision — to
+              use technology not just to solve problems, but to inspire
               transformation.
             </p>
             <p className="text-lg text-gray-300 leading-relaxed mb-4">
@@ -712,7 +709,7 @@ const About = () => {
             whileHover={{ scale: 1.07 }}
             transition={{ type: "spring", stiffness: 300 }}
           >
-            Contact Gamayas →
+            Contact Aira Digital Design →
           </motion.a>
         </motion.div>
       </section>

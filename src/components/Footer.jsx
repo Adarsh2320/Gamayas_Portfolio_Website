@@ -13,7 +13,7 @@ import {
   ChevronRight,
   X,
 } from "lucide-react";
-import gamayasLogo from "../assets/logo.jpg";
+import logo from "../assets/logo.jpg";
 
 const Footer = () => {
   const [showAdminLogin, setShowAdminLogin] = useState(false);
@@ -55,26 +55,24 @@ const Footer = () => {
         </div>
 
         {/* Main Footer Content */}
-        <div className="max-w-7xl mx-auto px-6 pt-16 pb-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-x-28 gap-y-16">
+        <div className="max-w-7xl mx-auto px-6 pt-16 pb-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-x-20 gap-y-16">
           {/* About Us */}
           <div className="max-w-xl">
             <div className="flex items-center mb-6">
               <img
-                src={gamayasLogo}
-                alt="Gamayas Logo"
-                className="h-14 w-14 rounded-md object-fit shadow-sm"
+                src={logo}
+                alt="Aira Logo"
+                className="h-14 w-16 rounded-md object-fit shadow-sm"
               />
               <div className="ml-3">
-                <div className="font-bold text-2xl text-white">GAMAYAS</div>
-                <div className="text-sm text-green-300">
-                  GROUP OF COMPANIES
-                </div>
+                <div className="font-bold text-2xl text-white">AIRA</div>
+                <div className="text-sm text-green-300">DIGITAL DESIGN</div>
               </div>
             </div>
             <p className="text-gray-300 mb-6 leading-relaxed text-sm lg:text-base text-justify">
-              Gamayas is a Hyderabad-based IT firm specializing in digital
-              transformation, top consulting, software development, product
-              engineering, and AI-driven solutions.
+              Aira Digital Design is a Hyderabad-based IT firm specializing in
+              digital transformation, top consulting, software development,
+              product engineering, and AI-driven solutions.
             </p>
 
             <div className="flex gap-x-4 mt-4">
@@ -168,7 +166,7 @@ const Footer = () => {
           </div>
 
           {/* Quick Links (with Admin Login click handler) */}
-          <div className="pl-28">
+          <div className="pl-32">
             <h3 className="text-xl font-bold text-white mb-6">Quick Links</h3>
             <ul className="space-y-4 text-gray-300">
               <li>
@@ -211,7 +209,7 @@ const Footer = () => {
           </div>
 
           {/* Contact Info */}
-          <div>
+          <div className="ml-[-40px]">
             <h3 className="text-xl font-bold text-white mb-6">Contact</h3>
             <ul className="space-y-5 text-gray-300">
               <li className="flex items-start">
@@ -219,7 +217,8 @@ const Footer = () => {
                 8841
               </li>
               <li className="flex items-start">
-                <Mail className="w-6 h-6 mr-3 text-green-400" /> ceo@gamayas.com
+                <Mail className="w-6 h-6 mr-3 text-green-400" />{" "}
+                contact@airadigitaldesign.com
               </li>
               <li className="flex items-start">
                 <MapPin className="w-6 h-6 mr-3 text-green-400" /> Hyderabad,
@@ -231,8 +230,8 @@ const Footer = () => {
 
         {/* Bottom Bar */}
         <div className="bg-black py-4 text-center text-sm text-gray-500 border-t border-green-800">
-          &copy; {new Date().getFullYear()} | Gamayas Group of Companies | All
-          rights reserved.
+          &copy; {new Date().getFullYear()} | Aira Digital Design | All rights
+          reserved.
         </div>
       </footer>
 
